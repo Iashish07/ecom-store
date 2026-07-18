@@ -57,7 +57,7 @@ export default function Homepage() {
       <header className="border-b-2 border-ink/80 sticky top-0 bg-canvas z-30">
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
           <span className="font-display uppercase tracking-widest text-lg">
-            Masala Tin Co.
+            Lok Nath INP
           </span>
           <nav className="flex items-center gap-6 font-mono text-xs uppercase tracking-wider text-ink/70">
             <a href="#catalog" className="hidden sm:inline hover:text-ink">Catalog</a>
@@ -148,7 +148,7 @@ export default function Homepage() {
       {/* footer */}
       <footer id="about" className="border-t-2 border-ink/80 bg-forest text-paper/60">
         <div className="max-w-6xl mx-auto px-6 py-10 font-mono text-xs uppercase tracking-wider flex flex-col sm:flex-row justify-between gap-4">
-          <span>Masala Tin Co. — Roasted, not fried alone in a factory.</span>
+          <span>Lok Nath IMP. Roasted, not fried alone in a factory.</span>
           <span>&copy; {new Date().getFullYear()}</span>
         </div>
       </footer>
