@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #EDE6D6;
+  color: #242220;
+}
+
+/* Dashed "stitched" border used on the hero and section dividers */
+.stitched {
+  border-top: 2px dashed #D8CFB8;
+}
+
+.stitched-box {
+  border: 2px dashed #B8863A;
+}
+
+/* Hang-tag punch hole */
+.punch-hole {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: #EDE6D6;
+  border: 2px solid #242220;
+}
+
+/* Subtle tag-flip on hover, respects reduced motion */
+.tag-hover {
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .tag-hover:hover {
+    transform: rotate(-1.5deg) translateY(-4px);
+  }
+}
+
+.tag-hover:focus-visible {
+  outline: 3px solid #B8863A;
+  outline-offset: 3px;
+}
